@@ -52,7 +52,7 @@ The goal is to train a machine learning model using this dataset to predict whet
 - `notebooks/`: Directory containing Jupyter notebooks for data exploration, preprocessing, and model training.
 - `models/`: Directory to save trained machine learning models.
 - `src/`: Directory containing source code for data preprocessing, model training, and evaluation.
-- `README.md`: This file providing an overview of the project.
+- `README.md`: This file provides an overview of the project.
 
 ## Requirements
 
@@ -68,4 +68,4 @@ The goal is to train a machine learning model using this dataset to predict whet
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/breast-cancer-diagnosis-prediction.git
+   git clone https://github.com/Mariambadra/BC_melignancy_prediction.git
