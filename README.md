@@ -1,49 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Breast Cancer Diagnosis Prediction</title>
-</head>
-<body>
-    <h1>Breast Cancer Diagnosis Prediction</h1>
+# Breast Cancer Diagnosis Prediction
 
-    <h2>Overview</h2>
-    <p>This repository contains code for training a machine learning model to predict whether a cell is malignant or not based on its measurements. The dataset used for this project includes detailed measurements of various characteristics of cells along with their diagnosis (malignant or not).</p>
+## Overview
 
-    <h2>Dataset</h2>
-    <p>The dataset consists of the following columns:</p>
-    <ul>
-        <li><code>id</code>: Unique identifier for each cell</li>
-        <li><code>diagnosis</code>: Diagnosis of the cell (malignant or not)</li>
-        <!-- List other columns -->
-        <!-- Example: -->
-        <!-- <li><code>radius_mean</code>: Mean of distances from center to points on the perimeter</li> -->
-    </ul>
+This repository contains code for training a machine learning model to predict whether a cell is malignant or not based on its measurements. The dataset used for this project includes detailed measurements of various characteristics of cells along with their diagnosis (malignant or not).
 
-    <h2>Approach</h2>
-    <p>The goal is to train a machine learning model using this dataset to predict whether a given cell is malignant or not based on its measurements. Several classification algorithms will be explored and evaluated for their performance.</p>
+## Dataset
 
-    <h2>Repository Structure</h2>
-    <ul>
-        <li><code>data/</code>: Directory to store the dataset.</li>
-        <li><code>notebooks/</code>: Directory containing Jupyter notebooks for data exploration, preprocessing, and model training.</li>
-        <li><code>models/</code>: Directory to save trained machine learning models.</li>
-        <li><code>src/</code>: Directory containing source code for data preprocessing, model training, and evaluation.</li>
-        <li><code>README.md</code>: This file providing an overview of the project.</li>
-    </ul>
+The dataset consists of the following columns:
 
-    <h2>Requirements</h2>
-    <ul>
-        <li>Python 3.x</li>
-        <li>Pandas</li>
-        <li>NumPy</li>
-        <li>Scikit-learn</li>
-        <li>Matplotlib</li>
-        <li>Jupyter Notebook (for running the notebooks)</li>
-    </ul>
-    
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
-</body>
-</html>
+- `id`: Unique identifier for each cell
+- `diagnosis`: Diagnosis of the cell (malignant or not)
+- `radius_mean`: Mean of distances from center to points on the perimeter
+- `texture_mean`: Standard deviation of gray-scale values
+- `perimeter_mean`: Mean size of the core tumor
+- `area_mean`: Mean area of the core tumor
+- `smoothness_mean`: Mean of local variation in radius lengths
+- `compactness_mean`: Mean of perimeter^2 / area - 1.0
+- `concavity_mean`: Mean severity of concave portions of the contour
+- `concave points_mean`: Mean number of concave portions of the contour
+- `symmetry_mean`: Mean symmetry
+- `fractal_dimension_mean`: Mean "coastline approximation" - 1
+- `radius_se`: Standard error of the mean of distances from center to points on the perimeter
+- `texture_se`: Standard error of gray-scale values
+- `perimeter_se`: Standard error of the size of the core tumor
+- `area_se`: Standard error of the area of the core tumor
+- `smoothness_se`: Standard error of local variation in radius lengths
+- `compactness_se`: Standard error of perimeter^2 / area - 1.0
+- `concavity_se`: Standard error of severity of concave portions of the contour
+- `concave points_se`: Standard error for number of concave portions of the contour
+- `symmetry_se`: Standard error for symmetry
+- `fractal_dimension_se`: Standard error for "coastline approximation" - 1
+- `radius_worst`: Worst or largest mean value for radius
+- `texture_worst`: Worst or largest mean value for texture
+- `perimeter_worst`: Worst or largest mean value for perimeter
+- `area_worst`: Worst or largest mean value for area
+- `smoothness_worst`: Worst or largest mean value for smoothness
+- `compactness_worst`: Worst or largest mean value for compactness
+- `concavity_worst`: Worst or largest mean value for concavity
+- `concave points_worst`: Worst or largest mean value for concave points
+- `symmetry_worst`: Worst or largest mean value for symmetry
+- `fractal_dimension_worst`: Worst or largest mean value for fractal dimension
+- `Unnamed: 32`: Unnamed column
+
+## Approach
+
+The goal is to train a machine learning model using this dataset to predict whether a given cell is malignant or not based on its measurements. Several classification algorithms will be explored and evaluated for their performance.
+
+## Repository Structure
+
+- `data/`: Directory to store the dataset.
+- `notebooks/`: Directory containing Jupyter notebooks for data exploration, preprocessing, and model training.
+- `models/`: Directory to save trained machine learning models.
+- `src/`: Directory containing source code for data preprocessing, model training, and evaluation.
+- `README.md`: This file providing an overview of the project.
+
+## Requirements
+
+- Python 3.x
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Jupyter Notebook (for running the notebooks)
+
